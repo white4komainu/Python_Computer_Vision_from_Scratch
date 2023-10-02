@@ -52,7 +52,18 @@ You can <img src="https://img.shields.io/static/v1?label=%E2%AD%90 Star &message
 Go [**`here`**](https://github.com/milaan9/Python_Computer_Vision_from_Scratch) if you aren't here already and click ➞ **`✰ Star`** and **`ⵖ Fork`** button in the top right corner. You'll be asked to create a GitHub account if you don't already have one.
 
 ---
-
+# Python program to print Even Numbers in given range
+ 
+start = int(input("Enter the start of range: "))
+end = int(input("Enter the end of range: "))
+ 
+#creating even starting range
+start = start+1 if start&1 else start
+  
+ 
+#create a list and printing element
+#contains Even numbers in range
+[ print( x ) for x in range(start, end + 1, 2)]
 ### How can I read this tutorial without an Internet connection? <img alt="GIF" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="20" />
 
 1. Go [**`here`**](https://github.com/milaan9/Python_Computer_Vision_from_Scratch) and click the big green ➞ **`Code`** button in the top right of the page, then click ➞ [**`Download ZIP`**](https://github.com/milaan9/Python_Computer_Vision_from_Scratch/archive/refs/heads/main.zip).

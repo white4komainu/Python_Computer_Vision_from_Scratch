@@ -83,7 +83,17 @@ I'm Dr. Milaan Parmar and I have written this tutorial. If you think you can add
 See [github's contributors page](https://github.com/milaan9/Python_Computer_Vision_from_Scratch/graphs/contributors) for details.
 
 If you have trouble with this tutorial please tell me about it by [Create an issue on GitHub](https://github.com/milaan9/Python_Computer_Vision_from_Scratch/issues/new). and I'll make this tutorial better. This is probably the best choice if you had trouble following the tutorial, and something in it should be explained better. You will be asked to create a GitHub account if you don't already have one.
-
+# Python program to print Even Numbers in given range
+ 
+start = int(input("Enter the start of range: "))
+end = int(input("Enter the end of range: "))
+ 
+# iterating each number in list
+for num in range(start, end + 1):
+ 
+    # checking condition
+    if num % 2 == 0:
+        print(num, end=" ")
 If you like this tutorial, please [give it a ⭐ star](https://github.com/milaan9/Python_Computer_Vision_from_Scratch).
 
 ---

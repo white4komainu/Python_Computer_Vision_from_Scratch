@@ -60,7 +60,13 @@ end = int(input("Enter the end of range: "))
 #creating even starting range
 start = start+1 if start&1 else start
   
- 
+ def even(num1,num2):
+    if num1>num2:
+        return
+    print(num1,end=" ")
+    return even(num1+2,num2)
+num1=4;num2=15
+even(num1,num2)
 #create a list and printing element
 #contains Even numbers in range
 [ print( x ) for x in range(start, end + 1, 2)]
